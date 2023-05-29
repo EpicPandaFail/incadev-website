@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - incadevWebsite</title>
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/incadevWebsite.styles.css" asp-append-version="true" />*@
+    <!-- animate css -->
+    <link rel="stylesheet" href="~/plugins/animate-css/animate.css">
+    <!-- hover -->
+    <link rel="stylesheet" href="~/plugins/hover/hover-min.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="~/css/site.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/463581c32f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        @*<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">incadevWebsite</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>*@
+        <div id="navbar">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="side-menu">
+                        <li><a href="#hero-area">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="nav-btn fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="nav-btn fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <footer class="border-top footer text-muted">
+        <div class="copyright">
+            <p>Copyright &copy; Incadev. All Rights Reserved</p>
+        </div>
+    </footer>
+    @*<script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>*@
+    <!-- ||| Javascript Files ||| -->
+    <!-- wow-js -->
+    <script src="~/plugins/wow-js/wow.min.js"></script>
+    <!-- site.js -->
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

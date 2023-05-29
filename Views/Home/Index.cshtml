@@ -1,0 +1,194 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!--
+    ||| - HERO AREA - |||
+    -->
+<section id="hero-area">
+    <div class="container">
+        <div class="hero-text wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+            <p>Full-Stack Developer</p>
+            <h1>Hi, I'm <span>Erick</span> Solis<br>Welcome to my Website!</h1>
+        </div>
+    </div>
+</section>
+<!--
+||| - ABOUT SECTIONS - |||
+-->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1 wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2 wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+                <h1 class="subtitle">About Me</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eius illum laboriosam
+                    distinctio aliquid sit, reiciendis sint voluptas iste? Quia praesentium earum voluptate ea,
+                    impedit magni necessitatibus molestias similique cupiditate. Libero, maiores distinctio
+                    suscipit laboriosam perspiciatis eos ullam quos neque cupiditate deleniti consequatur
+                    explicabo asperiores? Expedita et fugiat sint eveniet?
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab fadeInLeft" id="skills" data-wow-delay=".3s"
+                     data-wow-duration="500ms">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents fadeInLeft" id="experience" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <ul>
+                        <li><span>March 2023 - May 2023</span><br>Web Developer Intern at Tchaps Solutions</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Programmer Analyst at Collège Bois-de-Boulogne</li>
+                        <li><span>2018</span><br>Business Administration at Collège de Rosemont</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> <!-- END ABOUT ME -->
+<!--
+||| - SERVICES - |||
+-->
+
+<section id="services">
+    <div class="container">
+        <h1 class="subtitle wow fadeInLeft">My Services</h1>
+        <div class="services-list wow fadeInUp">
+            <div class="service">
+                <i class="icon fa-sharp fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptates. Voluptas
+                    cum ea mollitia perspiciatis natus eum, aut, soluta quia architecto suscipit nostrum
+                    reiciendis placeat! Enim, nam. Ad, a eveniet.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="service">
+                <i class="icon fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptates. Voluptas
+                    cum ea mollitia perspiciatis natus eum, aut, soluta quia architecto suscipit nostrum
+                    reiciendis placeat! Enim, nam. Ad, a eveniet.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="service">
+                <i class="icon fa-brands fa-angular"></i>
+                <h2>App Design</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptates. Voluptas
+                    cum ea mollitia perspiciatis natus eum, aut, soluta quia architecto suscipit nostrum
+                    reiciendis placeat! Enim, nam. Ad, a eveniet.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</section> <!-- END SERVICES -->
+<!--
+||| - PORTFOLIO - |||
+-->
+<section id="portfolio">
+    <div class="container">
+        <h1 class="subtitle wow fadeInLeft">My Work</h1>
+        <div class="work-list wow fadeInUp">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>FriendLink</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, ducimus ab inventore
+                        praesentium autem debitis?
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>237Clean</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, ducimus ab inventore
+                        praesentium autem debitis?
+                    </p>
+                    <a href="http://237clean.tchaps.com" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>This Website</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, ducimus ab inventore
+                        praesentium autem debitis?
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <!--<a href="#" class="btn">See more</a>-->
+    </div>
+</section> <!-- END PORTFOLIO -->
+<!--
+||| - CONTACT - |||
+-->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left wow fadeInLeft">
+                <h1 class="subtitle">Contact Me</h1>
+                <p class="my-email"><i class="fa-solid fa-paper-plane"></i> eric.solis.bedon@gmail.com</p>
+                <p class="my-phone"><i class="fa-solid fa-mobile-screen-button"></i> 514-625-5472</p>
+                <div class="social-icons">
+                    <a href="https://github.com/EpicPandaFail" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/soliserick" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/eric.dmangoo" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/erick_solis_bedon/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/Wakkodood" target="_blank">
+                        <i class="fa-brands fa-twitter-square"></i>
+                    </a>
+                </div>
+                <a href="~/docs/my-cv.pdf" download class="btn btn-primary hvr-bounce-to-right">
+                    Download my
+                    CV
+                </a>
+            </div>
+            <div class="contact-right wow fadeInRight">
+                <form>
+                    <input class="form-control" type="text" name="Name" id="name" placeholder="Your Name" required>
+                    <input class="form-control" type="email" name="Email" id="email" placeholder="Your Email"
+                           required>
+                    <textarea class="form-control" name="Message" id="message" rows="6"
+                              placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn-primary hvr-bounce-to-right">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section> <!-- END CONTACT -->
