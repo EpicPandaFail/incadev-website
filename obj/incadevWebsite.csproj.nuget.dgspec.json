@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyProjects\\incadevWebsite\\incadevWebsite.csproj": {}
+    "D:\\MyProjects\\incadev-website\\incadevWebsite.csproj": {}
   },
   "projects": {
-    "D:\\MyProjects\\incadevWebsite\\incadevWebsite.csproj": {
+    "D:\\MyProjects\\incadev-website\\incadevWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\incadevWebsite\\incadevWebsite.csproj",
+        "projectUniqueName": "D:\\MyProjects\\incadev-website\\incadevWebsite.csproj",
         "projectName": "incadevWebsite",
-        "projectPath": "D:\\MyProjects\\incadevWebsite\\incadevWebsite.csproj",
+        "projectPath": "D:\\MyProjects\\incadev-website\\incadevWebsite.csproj",
         "packagesPath": "C:\\Users\\haoA2\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\incadevWebsite\\obj\\",
+        "outputPath": "D:\\MyProjects\\incadev-website\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\haoA2\\AppData\\Roaming\\NuGet\\NuGet.Config",
